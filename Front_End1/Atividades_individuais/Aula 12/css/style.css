@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-superior{
+    display: flex;
+    background-color: black;
+    height: 20px;
+}
+
+#texto-container{
+    color: white;
+    align-items: center;
+}
+
+.container2{
+    background: #F0A83E;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    justify-content: space-between;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.fundo-comedouro{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.grupo-produtos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card-produto{
+    width: 265px;
+    background-color: #FBFAF6;
+
+}
+.preco-card-produto{
+    color: #F0A83E;
+}

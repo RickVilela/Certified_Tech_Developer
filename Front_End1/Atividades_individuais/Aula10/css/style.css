@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado{
+    height: 400px;
+    width: 300px;
+    background-color: turquoise;
+    margin: 10px 0 30px 40px;
+    padding: 20px;
+    border-color: purple;
+    border-width: 10px ;
+    border-style: dashed;
+    border-radius: 20px;
+    display: inline-block;
+
+}
