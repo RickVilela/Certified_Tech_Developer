@@ -61,63 +61,111 @@ nav a{
 
 .cardapio{
     display: flex;
-    align-content: flex-end;
     position: absolute;
-    width: 491px;
+    width: 50%;
     height: 350px;
-    left: 600px;
+    left: 490px;
+    background-color: white;
     top: 135px;
-    background: #FFFFFF;
     border-radius: 5px;
 }
 
-.cardapio h2{
-position: absolute;
-width: 205px;
-height: 28px;
-
-
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-
-color: #FC200C;
+.background{
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 400px;
+    top: 100px;
+    background-image: url(../img/PizzaFalling.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
 }
+
+
+.items-cardapio{
+    display: flex;
+    align-items: flex-start;
+    height: 50px;
+    padding-top: 110px;
+    font-size: 16px;
+    top: 160px;
+    left: 70px;
+    position: absolute;
+    height: 23px;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    padding: 30px;
+   
+}
+
+#subtitulo{
+    position: absolute;
+    width: 205px;
+    height: 28px;
+    padding-bottom: 155px;
+    padding-left: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    
+color: #222222;
+}
+
+
+#titulo-cardapio {
+    
+    position: absolute;
+    width: 205px;
+    height: 28px;
+    left: 160px;
+    top: 26px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C; 
+}
+
+
 
 .rodape-container{
     display: flex;
     background-color: black;
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 150px;
     bottom: 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 .menu-rodape {
     display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
     color: white;
+    padding-left: 20px;
+   
     
 }
 
 .item-rodape{
-    align-items: flex-start;
+    align-items: center;
     list-style: none;
     flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
-div .logo-inferior{
+.logo-inferior{
     display: flex;
-    width: 51px;
-    height: 50px;
-    align-self: flex-end;
+    align-self: center;
     justify-content: flex-end;
-    flex-direction: row;
-    background: url(../img/Logo.png);
-    padding: 14px 16px;
-
+    padding-right: 42px;
 }

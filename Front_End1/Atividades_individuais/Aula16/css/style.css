@@ -28,8 +28,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 100px;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .menu-login h1{
@@ -54,7 +53,6 @@ a{
     display: block;
     padding: 20px;
     text-decoration: none;
-    
 }
 
 #botao{
@@ -90,6 +88,5 @@ a{
     height: 100%;
     padding-left: 125px;
     padding-top: 10px;
-   
 }
 

@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.desconto{
+    display: flex;
+    position: absolute;
+    width: 2056px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #D1891C;
+    align-items: center;
+    
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 2056px;
+    height: 130px;
+    left: 0px;
+    top: 40px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+
+.batman p{
+    display: flex;
+    position: absolute;
+width: 718px;
+height: 348px;
+left: 669px;
+top: 1072px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: justify;
+
+color: #333333;
+}
+
+.batman h2{
+    position: absolute;
+width: 284px;
+height: 84px;
+left: 886px;
+top: 956px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.mulher-maravilha h2{
+    display: flex;
+    position: absolute;
+width: 643px;
+height: 84px;
+left: 708px;
+top: 2521px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #000000;
+}
+
+.mulher-maravilha p{
+    display: flex;
+    position: absolute;
+width: 718px;
+height: 348px;
+left: 670px;
+top: 2637px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: justify;
+
+color: #333333;
+}
+
+.batcaverna img{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 300px;
+    top: 269px;
+    border-radius: 15px;
+
+
+}
